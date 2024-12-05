@@ -1,0 +1,36 @@
+.post-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .post-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .post-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .post-body {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .post-meta {
+    font-size: 0.9rem;
+    color: #777;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .post-meta span {
+    color: #1E90FF;
+  }
+  
